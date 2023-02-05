@@ -1,0 +1,12 @@
+.text--bold, p{
+    color: brown;
+}
+div, .parent{
+    color: darkorange;
+}
+div, .child{
+    color: darkgreen;
+}
+a[href="#blog"]{
+    color:gray;
+}
