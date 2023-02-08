@@ -1,0 +1,32 @@
+.wrapper {
+  padding: 100px 100px 30vh;
+  height: 100vh;
+}
+
+.block {
+  height: 100%;
+  box-shadow: 0 0 10px rgb(53, 5, 5);
+  border-radius: 10px;
+}
+
+.block{ 
+  background: url(../img/1e7170c1b33a831975bfdf8891afd39d.jpg) 50%/ 50% no-repeat, linear-gradient(red, blue);
+}
+
+.wrapper2 {
+  padding: 100px 100px 30vh;
+  height: 100vh;
+}
+
+.block2 {
+  height: 100%;
+  box-shadow: 0 0 10px rgb(52, 10, 144);
+  border-radius: 10px;
+}
+
+.block2{
+  background-image: url(../img/1e7170c1b33a831975bfdf8891afd39d.jpg), linear-gradient(green, purple);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%, 100%;
+}
