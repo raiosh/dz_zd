@@ -1,0 +1,11 @@
+.block{
+  min-height: 100px;
+  height: 40vh;
+  width: 40vw;
+  background-color: rgb(120, 15, 15);
+  border-radius: 15px;
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+  left: 50vw;
+}
