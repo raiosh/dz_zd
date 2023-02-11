@@ -1,0 +1,24 @@
+.block{
+    border: 5px solid black ;
+    height: 900px;
+    border-radius: 10px;
+}
+/* сначала время  перехода, потом задержка */
+/* 1 */
+.block{
+    transition: border-color 3s 2s;
+}
+.block:hover {
+    border-color: red;
+}
+
+/* 2 */
+.block{
+    transition-property: border-color;
+    transition-delay: 2s;
+    transition-timing-function: 3s;
+}
+
+.block:hover {
+    border-color: red;
+}
