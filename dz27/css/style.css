@@ -1,0 +1,19 @@
+.wrapper{
+    margin: 20%;
+    border: 5px solid ;
+}
+.text{
+    font-weight: bolder;
+    font-size: 200%;
+}
+.text{
+    animation: coloring 1s infinite alternate;
+}
+@keyframes coloring{
+    from{
+        color: black;
+    }
+    to{
+        color: red;
+    }
+}
