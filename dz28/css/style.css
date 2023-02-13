@@ -1,0 +1,40 @@
+.wrapper{
+    height: 100%;
+    background-color: rgb(53, 52, 52);
+}
+.block{
+    border: 25px solid #72417e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.content{
+    display: flex;  
+    border: 99.3px solid rgb(143, 119, 91);
+    background-color: rgb(83, 64, 44);
+    padding: 50px;
+}
+.content2{
+    display: flex;  
+    border: 99.3px solid rgb(91, 143, 97);
+    background-color: rgb(83, 64, 44);
+    padding: 50px;
+}
+.content3{
+    display: flex;  
+    border: 99.3px solid rgb(91, 95, 143);
+    background-color: rgb(83, 64, 44);
+    padding: 50px;
+}
+.content4{
+    display: flex;  
+    border: 99.3px solid rgb(143, 91, 91);
+    background-color: rgb(83, 64, 44);
+    padding: 50px;
+}
+.content5{
+    display: flex;  
+    border: 99.3px solid rgb(91, 139, 143);
+    background-color: rgb(83, 64, 44);
+    padding: 50px;
+}
