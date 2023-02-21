@@ -1,0 +1,35 @@
+body{
+    background-color: #333;
+    color: #fff;
+    font-family: sans-serif;
+} 
+.wrapper{
+    padding: 100px;
+    min-height: 100%;
+}
+.container{
+    margin: auto;
+}
+.item {
+    border: 8px dashed #444;
+    font-size: 40px;
+    padding: 36%;
+    text-align: center;
+}
+.grid-1 {
+    display: grid;
+    font-size: 40px;
+    padding: 2em;
+    text-align: center;      
+    grid-template: repeat(2, 18vh) / repeat(5, 16vw);
+    grid-row: 1 / 4;
+    grid-column: 2;
+    grid-gap: 4% 0%;
+    justify-content: center;
+    align-items: center;
+} 
+
+.item--3 .item--8{
+    min-width: 100px;
+    max-width: 200px;
+}
