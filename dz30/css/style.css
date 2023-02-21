@@ -1,0 +1,12 @@
+.wrapper{
+    height: 100%;
+    background-color: rgb(83, 81, 81);
+}
+.menu{
+    padding: 10%;
+    font-size: 6vh;
+}
+
+.menu__item:first-child:hover{
+    color: red;
+}
